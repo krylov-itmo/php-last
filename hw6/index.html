@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Множественная загрузка файлов с проверкой содержимого</title>
+</head>
+<body>
+    <h2>
+    Форма множественной загрузки файлов
+    </h2>
+    <p>
+        Допустимый формат - ".txt" 
+    </p>
+    <p>
+        Допустимый размер - 10кб
+    </p>
+    <form method="POST" action="./uploader.php" enctype="multipart/form-data">
+        <div>
+        <input type="file" accept=".txt" name="files[]" multiple>
+        </div>
+        <div>
+        <input type="submit" value="загрузить">
+        </div>
+    </form>
+</body>
+</html>

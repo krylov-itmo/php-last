@@ -1,0 +1,6 @@
+https://google.com/file/archive.zip|b5756a02
+https://google.com/file/archive2.zip|71070c93
+https://google.com/file/archive3.zip|8a17423b
+https://google.com/file/archive1232.zip|f5dade1e
+https://google.com/file/archive12322.zip|4edae49a
+https://google.com/file/archive121.zip|e0ec837e
